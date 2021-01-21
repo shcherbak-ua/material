@@ -1,0 +1,9 @@
+mat-grid-tile{
+  background-color: aquamarine;
+}
+div{
+  display: inline-block;
+  margin: 5px;
+  padding: 2px;
+  border: 1px dotted grey;
+}

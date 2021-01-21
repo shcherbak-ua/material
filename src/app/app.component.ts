@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'myapp';
-  users = [];
+  // users = [];
   constructor(private data: DataService) {}
   ngOnInit(): void {
-    this.users = this.data.getUsers();
+    // this.users = this.data.getUsers();
   }
 }
